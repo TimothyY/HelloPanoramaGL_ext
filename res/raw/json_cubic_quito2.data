@@ -1,0 +1,40 @@
+{
+    "urlBase": "file:///sdcard/Android/data/com.example.panoramasdcard/files",
+    "type": "cubic",
+    "keep": "all",
+    "images":
+    {
+        "preview": "quito2_p.jpg",
+        "front": "quito2_f.jpg",
+        "back": "quito2_b.jpg",
+        "left": "quito2_l.jpg",
+        "right": "quito2_r.jpg",
+        "up": "quito2_u.jpg",
+        "down": "quito2_d.jpg"
+    },
+    "camera":
+    {
+    	"keep": "all"
+    },
+    "hotspots":
+	[
+		{
+			"id": 2,
+			"atv": 0.0,
+			"ath": 0.0,
+			"width": 0.05,
+			"height": 0.05,
+			"image": "hotspot.png",
+			"onClick": "lookAt(0.0, 0.0, true); load('file:///sdcard/Android/data/com.example.panoramasdcard/files/json_cubic.data', true, BLEND(2.0, 1.0), 0.0, 0.0)"
+		},
+		{
+			"id": 3,
+			"atv": 0.0,
+			"ath": 190.0,
+			"width": 0.05,
+			"height": 0.05,
+			"image": "hotspot.png",
+			"onClick": "lookAt(0.0, 190.0, true); load('file:///sdcard/Android/data/com.example.panoramasdcard/files/json_cubic_quito3.data', true, BLEND(2.0, 1.0), 15.0, -3.0)"
+		}
+	]
+}
