@@ -90,7 +90,7 @@ public class PanoramaSDCardUtility {
 	        os.write(data);
 	        is.close();
 	        os.close();
-//	        Toast.makeText(mContext, mContext.getExternalFilesDir(null).getAbsolutePath(), Toast.LENGTH_SHORT).show();
+	        Toast.makeText(mContext, mContext.getExternalFilesDir(null).getAbsolutePath(), Toast.LENGTH_SHORT).show();
 	        // Tell the media scanner about the new file so that it is
 	        // immediately available to the user.
 	        MediaScannerConnection.scanFile(mContext,
